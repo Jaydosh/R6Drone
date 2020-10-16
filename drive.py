@@ -2,6 +2,14 @@
 #left right porportional to left right motor balance
 
 
+
+
+
+#def joystickDrive(leftRight, speed);
+# drivemotor left(leftRIght% * speed )
+# drivemotor right(( 100 - leftRIght%) * speed )
+
+
 """
 pwmb = 40
 BI2 = 38
